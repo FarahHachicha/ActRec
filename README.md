@@ -13,7 +13,7 @@ workflows and enhancing collaboration among developers. GitHub Actions allows de
 The proposed ActRec approach consists of three major components: ActRecCF, ActRecARM, and an Aggregator. ActRecCF models relationships among open-source software projects using a graph representation, while ActRecARM mines patterns of action usage through association rules. The Aggregator combines the outcomes of both components to offer a unified set of recommendations. The ActRec architecture is as follows:
 
 <p align="center">
-<img src="https://github.com/FarahHachicha/ActRec/Images/ActRec.png" width="500">
+<img src="Images/ActRec.png" width="500">
 </p>
 
 
@@ -33,7 +33,7 @@ The <b>Aggregator</b> component ``label (III)`` combines the recommendations fro
 The ActRec approach has been evaluated using ten-fold cross-validation, considering various metrics such as success rate, precision, and recall. The results demonstrate that ActRec outperforms the individual Collaborative Filtering and Association Rule Mining approaches, indicating its superior performance in providing more accurate and effective recommendations for GitHub projects utilizing GitHub Actions. The evaluation process is as follows:
 
 <p align="center">
-<img src="https://github.com/FarahHachicha/ActRec/Images/Evaluation.png" width="500">
+<img src="Images/Evaluation.png" width="500">
 </p>
 
 ## Structure
